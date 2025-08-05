@@ -4,9 +4,9 @@ import os
 
 load_dotenv()
 
-OPENAI_KEY = os.getenv("OPENAI_KEY")
+OPENAI_KEY = os.getenv("OPENAI_API_KEY")
 
-client - OpenAI()
+client = OpenAI()
 
 def generate_x_post(topic: str) -> str:
     # Placeholder for the logic to generate an X post
