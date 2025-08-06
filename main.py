@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 import os
 import json
 import requests
+import sqlite3
+from pypdf import PdfReader
 
 load_dotenv()
 
